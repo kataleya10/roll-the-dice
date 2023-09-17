@@ -1,0 +1,22 @@
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align:center}
+button{
+    background-color: rgb(193, 94, 119);
+    border-radius: 8px;
+    border: none;
+    color:rgb(250, 250, 250);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 150;
+    cursor: all-scroll;
+
+}
+#placeholder{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 1px solid palegoldenrod;
+    border: radius 10px;
+    font-size: 80px auto;
+}
