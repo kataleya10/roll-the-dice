@@ -1,7 +1,7 @@
-var dice = {
-    sides: 6
+const dice = {
+    sides: 6,
     roll: function () {
-        var randomNumber = math.floor(math.random() * this.sides) + 1;
+        var randomNumber = Math.floor(Math.random() * this.sides) + 1;
         return randomNumber;
     }
 }
@@ -9,9 +9,10 @@ function printNumber(number) {
     var placeholder = document.getElementById("placeholder");
     placeholder.innerHTML = number;
 }
-var button = document.getElementById(button);
+const button = document.getElementById("button");
 button.onclick = function () {
     var result = dice.roll();
     printNumber(result);
 
+    console.log(result);
 }
