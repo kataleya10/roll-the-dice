@@ -6,12 +6,27 @@
     <title> Roll The Dice </title>
     <script src="./script.js"> </script>
     <link rel="stylesheet" href="./style.css">
+    <style> 
+        div {
+          width: 100px;
+          height: 100px;
+          background: red;
+          transition: width 2s, height 2s, transform 2s;
+        }
+        
+        div:hover {
+          width: 300px;
+          height: 300px;
+          transform: rotate(180deg);
+        }
+        </style>
 </head>
 
 <body>
     <p id = "placeholder"> </p> 
     <button id="button"> Roll Dice </button>
     <script src="script.js"></script>
+   
 </body>
 
 </html>
