@@ -1,3 +1,6 @@
+
+alert('Hello This is a Dice simulator 🎲')
+alert('click me ')
 const dice = {
     sides: 6,
     roll: function () {
