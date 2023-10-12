@@ -21,7 +21,7 @@ button {
     padding: 50px;
     margin: 50px auto;
     border: 1px solid rgb(0, 0, 0);
-    border-radius:30px;
+    border-radius: 30px;
     font-size: 80px;
 }
 
@@ -30,10 +30,10 @@ p {
     height: 100px;
     background: rgb(224, 159, 176);
     transition: width 2s, height 2s, transform 2s;
-  }
-  
-  p:hover {
+}
+
+p:hover {
     width: 300px;
     height: 300px;
     transform: rotate(180deg);
-  }
+}
